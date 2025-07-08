@@ -1,4 +1,14 @@
-# coc8640b4ab7ea074c56f6bdc
+ A simple Chrome extension or web app that lets users save and manage a list of URLs ("leads").
+
+Stores URLs: Users can add URLs manually via an input field or by clicking a button to save the current browser tab’s URL.
+
+Persists Data: URLs are saved in localStorage so they persist across page reloads.
+
+Displays URLs: The saved URLs are rendered as clickable links in a list.
+
+Delete Functionality: Double-clicking the delete button clears all saved URLs.
+
+Tab Button: Uses the Chrome Extensions API (chrome.tabs.query) to get the current tab’s URL and save it.
 
 Quick start:
 
@@ -7,15 +17,4 @@ $ npm install
 $ npm start
 ````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+* Scrimba course 
